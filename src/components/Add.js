@@ -71,7 +71,6 @@ class Add extends React.Component {
           onClick={this.newCommentHandler}
           >Добавить комментарий</button>
         <form className={className}>
-          <h3 className="newComment__title">Добавить комментарий</h3>
           <input
             id="name"
             type="text"
