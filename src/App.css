@@ -1,0 +1,95 @@
+.none {
+  display: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: grey;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+.comments__title {
+  text-align: center;
+}
+
+.comments__subtitle {
+  color: white;
+}
+
+.comments__wrapper {
+  width: 600px;
+  margin: 100px auto 0;
+  padding: 20px;
+  
+  background-color: rgba(0, 102, 255, 0.38);
+}
+
+.comments__new {
+  background: #FFF;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  margin: 0 0 5px;
+  box-shadow: 2px 2px 5px -1px rgb(30, 100, 150);
+  padding: 3px 5px;
+}
+
+.comments__author {
+  font-weight: bold;
+  color: black;
+}
+
+.newComment__title {
+  text-align: center;
+}
+
+.comments__count {
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+.add {
+  margin: 10px auto 0;
+  width: 400px;
+  padding: 5px;
+}
+.add__author,
+.add__text,
+.add__btn,
+.add__checkrule {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  width: 94%;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+}
+.add__checkrule {
+  border: none;
+  font-size: 12px;
+}
+
+.btn__addComment {
+  width: 300px;
+  margin-left: 150px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.add__btn {
+  box-sizing: content-box;
+  color: #FFF;
+  text-transform: uppercase;
+  background: #007DDC;
+}
+.add__btn:disabled {
+  background: #CCC;
+  color: #999;
+}
+
+.hide {
+  display: none;
+}
